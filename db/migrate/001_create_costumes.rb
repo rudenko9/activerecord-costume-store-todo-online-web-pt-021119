@@ -13,7 +13,7 @@ class CreateCostumes < ActiveRecord::Migration
     create_table :costumes do |t|
       t.string :name
       t.integer :price
-      t.integer :age
+      t.integer :size
       t.string :hometown
     end
   end
