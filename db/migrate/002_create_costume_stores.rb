@@ -1,3 +1,3 @@
 # Create your costume_stores migration here
 
-class ActiveRecord::Migration
+class CreateCostumeStore < ActiveRecord::Migration
