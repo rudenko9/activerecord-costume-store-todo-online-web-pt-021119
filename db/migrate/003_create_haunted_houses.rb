@@ -4,8 +4,8 @@ class CreateHauntedHouses < ActiveRecord::Migration[4.2]
     create_table :haunted_houses do |t|
     t.string  :name
      t.string :location
-      theme
-price
+     t.string :theme
+    t.float :price
 whether they're family friendly or not
 opening date
 closing date
