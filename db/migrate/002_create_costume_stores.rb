@@ -4,7 +4,7 @@ class CreateCostumeStore < ActiveRecord::Migration
   def change
     create_table :costume_stores do |t|
       t.string :name
-      t.string :genre
+      t.string :
       t.integer :age
       t.string :hometown
     end
