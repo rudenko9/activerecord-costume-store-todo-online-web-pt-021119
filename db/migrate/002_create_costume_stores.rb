@@ -7,7 +7,8 @@ class CreateCostumeStore < ActiveRecord::Migration
       t.string :location
       t.integer :number of costumes, or "costume inventory"
       t.integer :number of employees
-      t.string :hometown
+      t.string :whether or not it's still in business
+      
     end
   end
   
